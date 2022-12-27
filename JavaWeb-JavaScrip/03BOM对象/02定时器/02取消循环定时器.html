@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+			function run1(){
+				alert("run1");
+			}
+			// 希望每隔两秒执行一次
+			var id = setInterval("run1()",2000);	
+			
+			// clearInterval(循环定时器的ID)
+			clearInterval(id);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

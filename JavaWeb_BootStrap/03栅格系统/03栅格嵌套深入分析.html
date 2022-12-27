@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><!--html页面使用的是中文简体-->
+	<head>
+		<meta charset="utf-8"><!--html页面使用的字符集-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--使用IE最新的渲染模式展示页面-->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- 
+			viewport：视口
+			视口：浏览器上网页内容可视区域
+			
+			以下的设置，只在移动设备上生效  
+			width=device-width    设置视口的宽度    device-width设备宽度
+			initial-scale=1       初始化缩放设置    移动设备打开网页时，缩放级别  100%  正常
+		-->
+		<title>BootStrap 101 Template</title>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- 如果这些元素 占用列数  总和  如果  12 
+				总和=12
+				总和小于等于12，这些列元素还排列在一行上；
+				总和大于12，大于12的列元素，会另去一行排列
+		-->
+		<div class="container" style="border: 1px solid red;">
+			<!-- 在布局容器中，定义一行 -->
+			<div class="row">
+				<!-- 在行上-定义列 -->
+				<div class="col-lg-3"> 
+					111111111111111
+				</div>
+				<div class="col-lg-3">
+					222222222222222
+				</div>
+				<div class="col-lg-3">
+					333333333333333
+				</div>
+				<div class="col-lg-4">
+					444444444444444
+				</div>
+			</div>
+		</div>
+	
+	</body>
+</html>

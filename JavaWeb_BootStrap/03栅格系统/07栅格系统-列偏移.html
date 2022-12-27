@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><!--html页面使用的是中文简体-->
+	<head>
+		<meta charset="utf-8"><!--html页面使用的字符集-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--使用IE最新的渲染模式展示页面-->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- 
+			viewport：视口
+			视口：浏览器上网页内容可视区域
+			
+			以下的设置，只在移动设备上生效  
+			width=device-width    设置视口的宽度    device-width设备宽度
+			initial-scale=1       初始化缩放设置    移动设备打开网页时，缩放级别  100%  正常
+		-->
+		<title>BootStrap 101 Template</title>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<!-- 
+			需求：把111111111向中间进行推移
+			
+			列偏移：将列元素向右侧进行推移
+		 -->
+		 <div class="container">
+		 	<!-- 在布局容器中，定义一行 -->
+		 	<div class="row">
+<!-- 				<div class="col-lg-3">
+					
+				</div> -->
+		 		<!-- 在行上-定义列 -->
+		 		<div class="col-lg-4 col-lg-offset-5" style="border:1px solid red;"> 
+		 			11111111
+		 		</div>
+		 	</div>
+		 </div>
+	</body>
+</html>

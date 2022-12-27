@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><!--html页面使用的是中文简体-->
+	<head>
+		<meta charset="utf-8"><!--html页面使用的字符集-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--使用IE最新的渲染模式展示页面-->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- 
+			viewport：视口
+			视口：浏览器上网页内容可视区域
+			
+			以下的设置，只在移动设备上生效  
+			width=device-width    设置视口的宽度    device-width设备宽度
+			initial-scale=1       初始化缩放设置    移动设备打开网页时，缩放级别  100%  正常
+		-->
+		<title>BootStrap 101 Template</title>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav aria-label="Page navigation">
+			<!-- 分页条整体列表 -->
+		  <ul class="pagination">
+			  <!-- 上一页 -->
+		    <li>
+		      <a href="#" aria-label="Previous">
+		        <span aria-hidden="true">&laquo;</span>
+		      </a>
+		    </li>
+			<!-- 索引页 -->
+		    <li><a href="#">1</a></li>
+		    <li><a href="#">2</a></li>
+		    <li><a href="#">3</a></li>
+		    <li><a href="#">4</a></li>
+		    <li><a href="#">5</a></li>
+			<!-- 下一页 -->
+		    <li>
+		      <a href="#" aria-label="Next">
+		        <span aria-hidden="true">&raquo;</span>
+		      </a>
+		    </li>
+		  </ul>
+		</nav>
+	</body>
+</html>

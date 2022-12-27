@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+			function run1(){
+				alert("run1");
+			}
+			function run2(){
+				alert("run2");
+			}
+			window.onload=function(){
+				document.getElementById("t1").onclick=function(){
+					run1();
+					run2();
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<!-- 为文本框 onclick事件绑定两个函数，run1和run2 -->
+		<input type="text" id="t1"/>
+	</body>
+</html>

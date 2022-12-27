@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><!--html页面使用的是中文简体-->
+	<head>
+		<meta charset="utf-8"><!--html页面使用的字符集-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><!--使用IE最新的渲染模式展示页面-->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- 
+			viewport：视口
+			视口：浏览器上网页内容可视区域
+			
+			以下的设置，只在移动设备上生效  
+			width=device-width    设置视口的宽度    device-width设备宽度
+			initial-scale=1       初始化缩放设置    移动设备打开网页时，缩放级别  100%  正常
+		-->
+		<title>BootStrap 101 Template</title>
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<form class="form-horizontal">
+		  <div class="form-group has-error">
+			<label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+			<div class="col-sm-5">
+			  <input type="text" class="form-control" id="inputEmail3" placeholder="请输入用户名">
+			</div>
+		  </div>
+		  <div class="form-group has-success">
+			<label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+			<div class="col-sm-10">
+			  <input type="password" class="form-control" id="inputPassword3" placeholder="请输入密码">
+			</div>
+		  </div>
+<!-- 		  <div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+			  <div class="checkbox">
+				<label>
+				  <input type="checkbox"> Remember me
+				</label>
+			  </div>
+			</div>
+		  </div> -->
+		  <div class="form-group">
+			<div class="col-sm-offset-2 col-sm-10">
+			  <button type="submit" class="btn btn-default" >Sign in</button>
+			</div>
+		  </div>
+		</form>
+	</body>
+</html>
